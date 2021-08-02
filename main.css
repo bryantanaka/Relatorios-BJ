@@ -387,7 +387,7 @@ li{
     position: absolute;
     width: 38vw;
     margin-top: 0;
-    margin-left: 12%;
+    margin-left: 10%;
 }
 
 #rel-extra-1{
@@ -406,7 +406,6 @@ li{
 .relatorio-extra h1{
     font-size: 4em;
     color: white;
-    margin-left: 1%;
     font-weight: lighter;
     white-space: nowrap;
 }
