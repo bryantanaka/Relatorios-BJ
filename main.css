@@ -187,7 +187,7 @@ li{
 }
 
 #rel3 { 
-    width: 50%;
+    width: 75%;
     transform: translate(-15%, 0);
 }
 
@@ -394,7 +394,7 @@ li{
     position: absolute;
     width: 38vw;
     margin-top: 0;
-    margin-left: 12%;
+    margin-left: 10%;
 }
 
 #rel-extra-1{
@@ -413,8 +413,8 @@ li{
 .relatorio-extra h1{
     font-size: 4em;
     color: white;
-    margin-right: 1vw;
     font-weight: lighter;
+    white-space: nowrap;
 }
 
 .relatorio-extra h2{
