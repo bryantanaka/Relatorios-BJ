@@ -1,3 +1,21 @@
+var slideIndexAuto = 0;
+showSlidesAuto();
+
+function showSlidesAuto() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides-auto");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndexAuto++;
+  
+  if (slideIndexAuto > slides.length) {slideIndexAuto = 1}    
+
+  slides[slideIndexAuto-1].style.display = "block";  
+  setTimeout(showSlidesAuto, 10000);
+}
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
